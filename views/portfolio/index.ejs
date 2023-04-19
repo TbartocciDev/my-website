@@ -1,0 +1,42 @@
+<%- include('../partials/header') %>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <body>
+    <nav>
+      <a href="/" class="home-link">Tommy Bartocci</a>
+      <a href="/" class="nav-link" id="active-nav-link">Portfolio</a>
+      <a href="/about" class="nav-link">About</a>
+      <a href="/contact" class="nav-link">Contact</a>
+    </nav>
+    
+    <div class="project-body">
+      <div class="projects-div">
+
+        <a class="project-div" href="/this-website">
+          <div class="project">
+            <div class="project-img"></div>
+            <div class="project-title-div">
+              <p class="project-title">This website, tommybartocci.com</p>
+            </div>
+            <div class="project-type-div">
+              <p class="project-type-title">Express JS app</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="project-div" href="/show">
+          <div class="project">
+            <div class="project-img"></div>
+            <div class="project-title-div">
+              <p class="project-title">Hey heres a title</p>
+            </div>
+            <div class="project-type-div">
+              <p class="project-type-title">ios Application made with swift</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </body>
+  <script src="/javascripts/index.js"></script>
+<%- include('../partials/footer') %>
