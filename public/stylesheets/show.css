@@ -2,64 +2,64 @@
     --NavLink: #000000;
     --BackgroundColor: rgb(221, 221, 221);
     --Text: black;
-  }
+}
   /* NAVIGAGION STYLING */
-  body {
+body {
     margin: 0;
     height: 100vh;
     width: 100vw;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     background-color: var(--BackgroundColor);
-  }
-  a, a:visited, a:active {
+}
+a, a:visited, a:active {
     text-decoration: none;
     color: black;
-  }
-  nav {
+}
+nav {
     padding-top: 4.5vmin;
     padding-bottom: 4.5vmin;
-  }
-  .nav-link, .nav-link:visited, .nav-link:active{
+}
+.nav-link, .nav-link:visited, .nav-link:active{
     font-size: 2.5vmin;
     color: var(--NavLink);
     text-decoration: none;
-  }
-  #active-nav-link {
+}
+#active-nav-link {
     text-decoration: underline;
-  }
-  .home-link, .home-link:active, .home-link:visited {
+}
+.home-link, .home-link:active, .home-link:visited {
     font-size: 4vmin;
     text-decoration: none;
     color: var(--NavLink);
     margin-right: 3vmin;
     margin-left: 10vmin;
-  }
+}
   /* SHOW STYLING */
-  .content {
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .info {
+}
+.info {
     width: 65%;
-  }
-  h1 {
+}
+h1 {
     color: green;
     text-align: center;
     font-size: 8vmin;
     margin-bottom: 8vmin;
-  }
-  h2 {
+}
+h2 {
     font-size: 3.5vmin;
     color: var(--Text);
-  }
-  h3 {
+}
+h3 {
     font-size: 2.5vmin;
     margin-top: 6vmin;
-  }
+}
 
-  .github-link, .github-link:visited, .github-link:active {
+.github-link, .github-link:visited, .github-link:active {
     font-size: 3.5vmin;
     text-decoration: underline;
     color: var(--Text);
-  }
+}
