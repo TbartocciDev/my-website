@@ -22,6 +22,7 @@ nav {
 .nav-link, .nav-link:visited, .nav-link:active{
     font-size: 2.5vmin;
     color: var(--NavLink);
+    margin-left: 1.5vmin;
     text-decoration: none;
 }
 #active-nav-link {

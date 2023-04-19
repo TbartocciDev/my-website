@@ -1,5 +1,7 @@
 :root {
-  --NavLink: #ececec;
+  --NavLink: #000000;
+  --BackgroundColor: rgb(255, 255, 255);
+  --Text: black;
 }
 /* NAVIGAGION STYLING */
 body {
@@ -7,7 +9,7 @@ body {
   height: 100vh;
   width: 100vw;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: rgb(94, 91, 91);
+  background-color: var(--BackgroundColor);
 }
 a, a:visited, a:active {
   text-decoration: none;
@@ -20,6 +22,7 @@ nav {
 .nav-link, .nav-link:visited, .nav-link:active{
   font-size: 2.5vmin;
   color: var(--NavLink);
+  margin-left: 1.5vmin;
   text-decoration: none;
 }
 #active-nav-link {

@@ -1,6 +1,7 @@
 module.exports = {
     index,
-    showThisWebsite
+    showThisWebsite,
+    showSomeMessenger
 }
 
 function index(req,res) {
@@ -8,5 +9,9 @@ function index(req,res) {
 }
 
 function showThisWebsite(req,res) {
-    res.render('portfolio/show')
+    res.render('portfolio/this-website')
+}
+
+function showSomeMessenger(req,res) {
+    res.render('portfolio/some-messenger')
 }
