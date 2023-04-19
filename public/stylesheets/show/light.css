@@ -1,0 +1,158 @@
+:root {
+    --NavLink: #000000;
+    --BackgroundColor: rgb(255, 255, 255);
+    --Text: rgb(0, 0, 0);
+  }
+  /* NAVIGAGION STYLING */
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: var(--BackgroundColor);
+}
+a, a:visited, a:active {
+    text-decoration: none;
+    color: var(--Text);
+}
+nav {
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    padding-top: 4.5vmin;
+    padding-bottom: 4.5vmin;
+    display: flex;
+    align-items: baseline;
+}
+nav div:last-child {
+    margin-left: auto;
+}
+.mode-div {
+    height: 100%;
+    display: flex;
+    color: var(--Text);
+}
+#selected {
+    background-color: gray;
+}
+.nav-link, .nav-link:visited, .nav-link:active{
+    font-size: 2.5vmin;
+    color: var(--NavLink);
+    margin-left: 1.5vmin;
+    text-decoration: none;
+}
+#active-nav-link {
+    text-decoration: underline;
+}
+.home-link, .home-link:active, .home-link:visited {
+    font-size: 4vmin;
+    text-decoration: none;
+    color: var(--NavLink);
+    margin-right: 3vmin;
+}
+
+/* PORTFOLIO STYLING */
+.project-body {
+    margin-top: 5vmin;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects-div {
+    width: 100%;
+    padding-left: 5vmin;
+    padding-right: 5vmin;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.project-div {
+    width: 100%;
+    aspect-ratio: 1/0.8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.project {
+    position: relative;
+    height: 90%;
+    width: 90%;
+    border-style: groove;
+    border-radius: 3vmin;
+    border-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+}
+.project-img {
+    height: 85%;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 3vmin 3vmin 0 0;
+}
+.project-title-div {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 3vmin 3vmin;
+    height: 15%;
+    background-color: rgb(246, 246, 246);
+} 
+.project-title {
+    margin-left: 1vmin;
+    margin-right: 1vmin;
+    font-size: 3.5vmin;
+    padding: 1vmin;
+    width: 100%;
+    text-align: left;
+}
+.project-type-div {
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    background-color: rgba(65, 65, 65, 0.745);
+    border-radius: 3vmin 3vmin 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.project-type-div:hover{
+    opacity: 1;
+}
+.project-type-title {
+    font-size: 4vmin;
+    max-width: 90%;
+    color: white;
+}
+  /* SHOW STYLING */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info {
+    width: 65%;
+}
+h1 {
+    color: green;
+    text-align: center;
+    font-size: 8vmin;
+    margin-bottom: 8vmin;
+}
+h2 {
+    font-size: 3.5vmin;
+    color: var(--Text);
+}
+h3 {
+    font-size: 2.5vmin;
+    margin-top: 6vmin;
+    color: var(--Text);
+}
+
+.github-link, .github-link:visited, .github-link:active {
+    padding: 8vmin 0 8vmin 0;
+    font-size: 3.5vmin;
+    text-decoration: underline;
+    color: var(--Text);
+}

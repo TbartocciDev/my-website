@@ -3,7 +3,7 @@ const modeBtns = document.querySelectorAll('.mode-btn')
 
 let mode = sessionStorage.getItem('mode')
 if (mode === null) { mode = 'light' }
-styleSheet.setAttribute('href', `/stylesheets/index/${mode}.css`)
+styleSheet.setAttribute('href', `/stylesheets/show/${mode}.css`)
 
 
 modeBtns.forEach(function(btn) {
@@ -22,6 +22,6 @@ modeBtns.forEach(function(btn) {
         })
         btn.setAttribute('id', 'selected')
 
-        styleSheet.setAttribute('href', `/stylesheets/index/${val}.css`)
+        styleSheet.setAttribute('href', `/stylesheets/show/${val}.css`)
     })
 })

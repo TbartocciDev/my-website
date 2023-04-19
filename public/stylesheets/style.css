@@ -16,8 +16,22 @@ a, a:visited, a:active {
   color: black;
 }
 nav {
+  margin-left: 10vmin;
+  margin-right: 10vmin;
   padding-top: 4.5vmin;
   padding-bottom: 4.5vmin;
+  display: flex;
+  align-items: baseline;
+}
+nav div:last-child {
+  margin-left: auto;
+}
+.mode-div {
+  height: 100%;
+  display: flex;
+}
+#selected {
+  background-color: gray;
 }
 .nav-link, .nav-link:visited, .nav-link:active{
   font-size: 2.5vmin;
@@ -33,7 +47,6 @@ nav {
   text-decoration: none;
   color: var(--NavLink);
   margin-right: 3vmin;
-  margin-left: 10vmin;
 }
 /* PORTFOLIO STYLING */
 .project-body {

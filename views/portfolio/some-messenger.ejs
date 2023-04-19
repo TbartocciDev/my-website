@@ -1,11 +1,16 @@
 <%- include('../partials/header') %>
-<link rel='stylesheet' href='/stylesheets/show.css' />
+<link rel='stylesheet' class="styleSheet"/>
+<script src="/javascripts/set-style.js"></script>
   <body>
     <nav>
       <a href="/" class="home-link">Tommy Bartocci</a>
       <a href="/" class="nav-link" id="active-nav-link">Portfolio</a>
       <a href="/about" class="nav-link">About</a>
       <a href="/contact" class="nav-link">Contact</a>
+      <div class="mode-div">
+        <div class="mode-btn" val="light">Light</div>
+        <div class="mode-btn" val="dark">Dark</div>
+      </div>
     </nav>
     <div class="content">
         <div class="info">
@@ -14,5 +19,5 @@
         </div>
     </div>
   </body>
-  <script src="/javascripts/index.js"></script>
+  <script src="/javascripts/this-website.js"></script>
 <%- include('../partials/footer') %>

@@ -5,10 +5,11 @@ module.exports = {
 }
 
 function index(req,res) {
+    // const mode = sessionStorage.getItem('mode')
     res.render('portfolio/index')
 }
 
-function showThisWebsite(req,res) {
+async function showThisWebsite(req,res) {
     res.render('portfolio/this-website')
 }
 
